@@ -6,11 +6,11 @@
   <circle cx="64" cy="18" r="6" fill="#a6e3a1"/>
   <text x="90" y="23" fill="#cdd6f4" font-size="12">port-scanner — JSON output</text>
 
-  <text x="24" y="68" fill="#89b4fa">$ python port_scanner.py web.example --top-ports 10 --json --no-color</text>
+  <text x="24" y="68" fill="#89b4fa">$ python port_scanner.py lab-web-01.lab --top-ports 10 --json --no-color</text>
   <text x="24" y="92" fill="#a6adc8">{</text>
   <text x="24" y="110" fill="#a6adc8">  "scanned_at": "2024-01-01T12:00:00",</text>
-  <text x="24" y="128" fill="#a6adc8">  "target": "web.example",</text>
-  <text x="24" y="146" fill="#a6adc8">  "resolved_ip": "93.184.216.34",</text>
+  <text x="24" y="128" fill="#a6adc8">  "target": "lab-web-01.lab",</text>
+  <text x="24" y="146" fill="#a6adc8">  "resolved_ip": "192.168.1.10",</text>
   <text x="24" y="164" fill="#a6adc8">  "ports_scanned": 10,</text>
   <text x="24" y="182" fill="#a6adc8">  "port_states": { "open": 2, "closed": 8, "filtered": 0 },</text>
   <text x="24" y="200" fill="#a6adc8">  "open_ports": [</text>
