@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="Consolas, Menlo, monospace" font-size="13">
+  <rect width="900" height="520" rx="8" fill="#1e1e2e"/>
+  <rect width="900" height="36" rx="8" fill="#313244"/>
+  <circle cx="24" cy="18" r="6" fill="#f38ba8"/>
+  <circle cx="44" cy="18" r="6" fill="#f9e2af"/>
+  <circle cx="64" cy="18" r="6" fill="#a6e3a1"/>
+  <text x="90" y="23" fill="#cdd6f4" font-size="12">port-scanner — Terminal</text>
+
+  <text x="24" y="70" fill="#cdd6f4" font-weight="bold">Port Scan Report</text>
+  <text x="24" y="88" fill="#6c7086">========================================================</text>
+  <text x="24" y="106" fill="#a6adc8">  Target : 192.168.1.10 (192.168.1.10)</text>
+  <text x="24" y="122" fill="#a6adc8">  Scanned: 1024 ports (no banners)</text>
+  <text x="24" y="138" fill="#a6adc8">  Open   : 5   Closed: 1015   Filtered: 4</text>
+  <text x="24" y="156" fill="#6c7086">  </text>
+  <text x="24" y="174" fill="#cdd6f4" font-weight="bold">  PORT     STATE     SERVICE          RISK    NOTES</text>
+  <text x="24" y="192" fill="#6c7086">  -------------------------------------------------</text>
+  <text x="24" y="210" fill="#a6e3a1"><tspan fill="#a6adc8">  21       </tspan><tspan fill="#a6e3a1">open</tspan><tspan fill="#a6adc8">      ftp              </tspan><tspan fill="#f38ba8">RISKY</tspan><tspan fill="#6c7086">   FTP sends credentials and data in cleartext...</tspan></text>
+  <text x="24" y="228" fill="#a6e3a1"><tspan fill="#a6adc8">  22       </tspan><tspan fill="#a6e3a1">open</tspan><tspan fill="#a6adc8">      ssh              </tspan><tspan fill="#a6e3a1">SAFE      </tspan></text>
+  <text x="24" y="246" fill="#f38ba8"><tspan fill="#a6adc8">  23       </tspan><tspan fill="#a6e3a1">open</tspan><tspan fill="#a6adc8">      telnet           </tspan><tspan fill="#f38ba8">RISKY</tspan><tspan fill="#6c7086">   Legacy cleartext remote shell — credentials...</tspan></text>
+  <text x="24" y="264" fill="#f9e2af"><tspan fill="#a6adc8">  80       </tspan><tspan fill="#a6e3a1">open</tspan><tspan fill="#a6adc8">      http             </tspan><tspan fill="#f9e2af">WARN</tspan><tspan fill="#6c7086">    Cleartext HTTP — traffic and login forms...</tspan></text>
+  <text x="24" y="282" fill="#a6e3a1"><tspan fill="#a6adc8">  443      </tspan><tspan fill="#a6e3a1">open</tspan><tspan fill="#a6adc8">      https            </tspan><tspan fill="#a6e3a1">SAFE      </tspan></text>
+  <text x="24" y="308" fill="#cdd6f4" font-weight="bold">Risk summary</text>
+  <text x="24" y="326" fill="#a6e3a1">  SAFE : 2</text>
+  <text x="24" y="344" fill="#f9e2af">  WARN : 1</text>
+  <text x="24" y="362" fill="#f38ba8">  RISKY: 2</text>
+  <text x="24" y="388" fill="#f38ba8">! 2 risky/insecure service(s) detected. Investigate before exposing.</text>
+  <text x="24" y="414" fill="#cdd6f4" font-weight="bold">[-] Scan complete.</text>
+  <text x="24" y="446" fill="#45475a">  $ </text>
+  <rect x="47" y="432" width="8" height="16" fill="#a6e3a1"/>
+</svg>
