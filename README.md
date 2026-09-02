@@ -164,11 +164,12 @@ A suíte de testes cobre o construtor de lista de portas, a classificação de s
 
 ## Capturas de tela
 
-Veja a pasta `screenshots/`:
+Os mockups de terminal abaixo mostram o **Port Scanner em ação** — portas abertas, serviço identificado e classificação de risco. (Arquivos em `screenshots/`.)
 
-| Scanner em ação | Saída JSON |
+| **Scanner em ação** | **Saída JSON** |
 | --- | --- |
-| ![scan](screenshots/scan_terminal.svg) | ![json](screenshots/json_output.svg) |
+| ![Relatório de varredura mostrando portas abertas com serviço e nível de risco RISKY/WARN/SAFE](screenshots/scan_terminal.svg) | ![Saída JSON estruturada com porta, estado, serviço e risk_level](screenshots/json_output.svg) |
+| *Varredura TCP com identificação de serviço e risco (telnet/FTP como RISKY, SSH/HTTPS como SAFE).* | *Saída legível por máquina com ports_scanned e open_ports.* |
 
 ## Aviso / Uso ético
 
@@ -340,11 +341,12 @@ The test suite covers the port-list builder, service/risk classification, report
 
 ## Screenshots
 
-See the `screenshots/` folder:
+The terminal mockups below show the **Port Scanner in action** — open ports, identified service and risk classification. (Files in `screenshots/`.)
 
-| Scanner in action | JSON output |
+| **Scanner in action** | **JSON output** |
 | --- | --- |
-| ![scan](screenshots/scan_terminal.svg) | ![json](screenshots/json_output.svg) |
+| ![Scan report showing open ports with service and RISKY/WARN/SAFE risk level](screenshots/scan_terminal.svg) | ![Structured JSON output with port, state, service and risk_level](screenshots/json_output.svg) |
+| *TCP scan with service identification and risk (telnet/FTP as RISKY, SSH/HTTPS as SAFE).* | *Machine-readable output with ports_scanned and open_ports.* |
 
 ## Disclaimer / Ethical Use
 
