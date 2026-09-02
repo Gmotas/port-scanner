@@ -8,7 +8,7 @@
 
   <text x="24" y="70" fill="#cdd6f4" font-weight="bold">Port Scan Report</text>
   <text x="24" y="88" fill="#6c7086">========================================================</text>
-  <text x="24" y="106" fill="#a6adc8">  Target : 192.168.1.10 (192.168.1.10)</text>
+  <text x="24" y="106" fill="#a6adc8">  Target : lab-web-01.lab (192.168.1.10)</text>
   <text x="24" y="122" fill="#a6adc8">  Scanned: 1024 ports (no banners)</text>
   <text x="24" y="138" fill="#a6adc8">  Open   : 5   Closed: 1015   Filtered: 4</text>
   <text x="24" y="156" fill="#6c7086">  </text>
